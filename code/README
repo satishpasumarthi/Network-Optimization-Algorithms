@@ -1,0 +1,56 @@
+   ////////////////////////////////////////
+  //UIN: 726006526						//
+ //S Venkata Satish Kumar Pasumarthi   //
+////////////////////////////////////////
+
+1) The project code contains the following files:
+
+Misc:
+----------
+Makefile
+sample_run_output
+
+C++ Files:
+---------
+dijkstrawithoutheap.cpp
+dijkstrawithheap.cpp
+kruskal.cpp
+maxheap.cpp
+heapforkruskal.cpp
+graph.cpp
+project.cpp
+
+C++ Header Files:
+-----------------
+dijkstrawithoutheap.h
+dijkstrawithheap.h
+kruskal.h
+maxheap.h
+heapforkruskal.h
+graph.h
+
+2) Steps for Execution:
+
+Step 01: %make clean
+The above step cleans up the executable
+
+Step 02: %make all
+Code compilation using g++ compiler
+
+Step 03: %./runme
+Executing the "runme" file to output the results
+
+Optional: If the output needs to be saved to a file, then add "| tee log" to the above command
+-> % ./runme | tee log 
+
+3) Interpretting the results:
+
+The code will print the following:
+-->
+Max BW Value
+Max BW Path for each algorithm for each (s,t) pair of Sparse as well as Dense Graphs.
+Example Path:
+s->v1(a)->v2(b)->v6(c)->t(bw)
+The information in the braces in the bandwidth at that vertex. The bw value in the braces of target vertex is desired bandwith
+-->
+RunTime profiling for the algorithm on sparse and Dense graphs along with stats for the graphs.
