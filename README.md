@@ -25,4 +25,4 @@ The report discusses the implementation and the results of the implementation of
 %make clean  
 %make all  
 2. The above step will create a runme file which is a binary executable.
-"remove" 29L, 1580C written                                                                                     1,1           Top
+3. Run time as well as the paths of max-bw will be displayed on the stdout
