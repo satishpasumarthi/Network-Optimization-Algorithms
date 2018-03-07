@@ -14,7 +14,7 @@ class MaxHeap {
 		int* POS;	//Array to track position of vertices
 		int* BW;	//Array to store BW of the vertices
     public:
-    	int size;
+    		int size;
 		int index;
 		MaxHeap(int VERTICES_COUNT){
 			index 	= 1; //variable for indexing the heap 
@@ -25,11 +25,11 @@ class MaxHeap {
 		}
 		int my_max(int,int);
 		void my_swap(int&,int&);
-        int getmax_from_heap();
-        int getmaxvertex_from_heap();
-        void delete_from_heap(int);
-        void insert_into_heap(int,int);
-        void buildmaxheap(int);
-        ~MaxHeap(){};
+        	int getmax_from_heap();
+        	int getmaxvertex_from_heap();
+        	void delete_from_heap(int);
+        	void insert_into_heap(int,int);
+        	void buildmaxheap(int);
+        	~MaxHeap(){};
 };
 #endif
