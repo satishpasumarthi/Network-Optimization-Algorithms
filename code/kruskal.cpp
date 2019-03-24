@@ -93,7 +93,7 @@ void kruskal::run_dfs(int v){
 			run_dfs(w);
 		}
 	}
-	COLOR[v] == BLACK;
+	COLOR[v] = BLACK;
 }
 
 void kruskal::tracePath(int* PARENT,int dest){
