@@ -24,5 +24,5 @@ The report discusses the implementation and the results of the implementation of
 1.You should see a Makefile:  
 %make clean  
 %make all  
-2. The above step will create a runme file which is a binary executable.
-3. Run time as well as the paths of max-bw will be displayed on the stdout
+2. The above step will create a runme file which is a binary executable. <br>
+3. Run time as well as the paths of max-bw will be displayed on the stdout.
